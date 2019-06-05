@@ -1,0 +1,208 @@
+   html {
+       margin: 0;
+       padding: 0;
+       background: url("../../img/DecorsVille.jpg") no-repeat center fixed;
+       -webkit-background-size: cover;
+       /* pour anciens Chrome et Safari */
+       background-size: cover;
+       /* version standardisée */
+       background-size: 100%;
+   }
+   
+   .ForetHiver {
+       background: url("../../img/DecorsForetHiver.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .VillageNord {
+       background: url("../../img/DecorsVillageNord.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .VilleEst {
+       background: url("../../img/DecorsVilleEst.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .btnClick {
+       cursor: pointer;
+       position: absolute;
+       display: inline-block;
+       border: solid 3px;
+       -moz-border-radius: 50%;
+       -webkit-border-radius: 50%;
+       border-radius: 50%;
+   }
+   
+   .blockNarrateur {
+       width: 80%;
+       left: 7%;
+       position: absolute;
+       top: 83%;
+       height: 15%;
+       display: none;
+   }
+   
+   .blockTextNarrateur {
+       border: solid 3px white;
+       background-color: white;
+       opacity: 0.82;
+       height: 100%;
+       border-radius: 20px;
+   }
+   
+   .closeTextNarrateur {
+       float: right;
+       color: lightseagreen;
+       position: absolute;
+       top: 15px;
+       right: 30px;
+   }
+   
+   .btn:hover {
+       cursor: pointer;
+   }
+   
+   .textNarrateur {
+       top: 15%;
+       left: 5%;
+       position: absolute;
+       height: 80%;
+       width: 90%;
+       overflow: auto;
+       font-size: 20px;
+   }
+   
+   .fleches {
+       width: 150px;
+       height: 150px;
+       position: absolute;
+       left: 90%;
+       bottom: 10px;
+   }
+   
+   .flecheHaut {
+       position: absolute;
+       left: 30%;
+       color: lightseagreen;
+       cursor: pointer;
+   }
+   
+   .flecheDroite {
+       position: absolute;
+       left: 60%;
+       top: 30%;
+       color: lightseagreen;
+       cursor: pointer;
+   }
+   
+   .flecheBas {
+       position: absolute;
+       left: 30%;
+       top: 55%;
+       color: lightseagreen;
+       cursor: pointer;
+   }
+   
+   .flecheGauche {
+       position: absolute;
+       top: 30%;
+       color: lightseagreen;
+       cursor: pointer;
+   }
+   
+   .flecheDesactive {
+       color: red;
+   }
+   
+   .backFlecheHorizontal {
+       background-color: white;
+       border-radius: 18px;
+       position: absolute;
+       top: 45px;
+       opacity: 0.8;
+       width: 156px;
+       height: 65px;
+       left: -6px;
+   }
+   
+   .backFlecheVerticalHaut {
+       background-color: white;
+       border-radius: 18px 18px 0px 0px;
+       position: absolute;
+       opacity: 0.8;
+       width: 65px;
+       height: 50px;
+       left: 40px;
+       top: -5px;
+   }
+   
+   .backFlecheVerticalBas {
+       background-color: white;
+       border-radius: 0px 0px 18px 18px;
+       position: absolute;
+       opacity: 0.8;
+       width: 65px;
+       height: 40px;
+       left: 40px;
+       top: 110px;
+   }
+   
+   .titreDescritpion {
+       width: 390px;
+       height: 35px;
+       background-color: white;
+       opacity: 0.82;
+       font-family: cursive;
+       font-size: x-large;
+       padding-left: 10px;
+       text-decoration: underline;
+   }
+   
+   .containerTexteDescription {
+       width: 400px;
+       height: auto;
+       background-color: white;
+       opacity: 0.82;
+   }
+   
+   .texteDescription {
+       padding: 10px;
+       font-size: large;
+   }
+   
+   .fondOpaque {
+       display: none;
+       width: 100%;
+       height: 100%;
+       opacity: 0.6;
+       overflow: auto;
+       position: absolute;
+       top: 0;
+       left: 0;
+       background-color: whitesmoke;
+   }
+   
+   #imgVilleEst1 {
+       position: absolute;
+       left: 10%;
+       top: 20%;
+   }
+   
+   #imgVilleEst1>img {
+       width: 700px;
+   }
+   
+   #imgVilleEst2 {
+       position: absolute;
+       left: 50%;
+       top: 20%;
+   }
+   
+   #imgVilleEst2>img {
+       width: 700px;
+   }
+   
+   .displayNone {
+       display: none;
+   }

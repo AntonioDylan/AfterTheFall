@@ -35,7 +35,7 @@
     <a href="InterieurRefuge.php"><i class="fas fa-4x fa-arrow-up flecheHaut"></i></a>
     <a href="RefugeNord.php"><i class="fas fa-4x fa-arrow-right flecheDroite"></i></a>
     <a href="CentreCommercial.php"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
-    <a href="SousterrainOuest.php"><i class="fas fa-4x fa-arrow-left flecheGauche"></i></a>
+    <a href="SouterrainOuest.php"><i class="fas fa-4x fa-arrow-left flecheGauche"></i></a>
 </div>
 
 </body>

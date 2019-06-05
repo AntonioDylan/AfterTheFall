@@ -1,4 +1,4 @@
-   html {
+﻿   html {
        margin: 0;
        padding: 0;
        background: url("../../img/DecorsVille.jpg") no-repeat center fixed;
@@ -19,7 +19,7 @@
        background-size: 100%;
    }
    
-   .VillageNord {
+   .RefugeNord {
        background: url("../../img/DecorsVillageNord.jpg") no-repeat center fixed;
        background-size: 100%;
    }

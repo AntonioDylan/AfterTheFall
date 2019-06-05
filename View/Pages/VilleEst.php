@@ -37,8 +37,8 @@
   <div class="backFlecheVerticalHaut"></div>
   <div class="backFlecheVerticalBas"></div>
   <a ><i class="fas fa-4x fa-arrow-up flecheHaut flecheDesactive"></i></a>
-  <a href="Train.php"><i class="fas fa-4x fa-arrow-right flecheDroite"></i></a>
-  <a href="SousTerrain2.php"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
+  <a href="AncienneGare.php"><i class="fas fa-4x fa-arrow-right flecheDroite"></i></a>
+  <a href="SouterrainEst.php"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
   <a href="Accueil.php"><i class="fas fa-4x fa-arrow-left flecheGauche"></i></a>
   </div>
 

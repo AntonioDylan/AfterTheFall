@@ -30,8 +30,8 @@
     <div class="backFlecheHorizontal"></div>
     <div class="backFlecheVerticalHaut"></div>
     <div class="backFlecheVerticalBas"></div>
-    <a href="SouterrainSud.php.php"><i class="fas fa-4x fa-arrow-left flecheGauche"></i></a>
-    <a href="VilleEst.php"><i class="fas fa-4x fa-arrow-up flecheHaut"></i></a>
+    <a href="SouterrainSud.php"><i class="fas fa-4x fa-arrow-left flecheGauche"></i></a>
+    <a href="SouterrainEst.php"><i class="fas fa-4x fa-arrow-up flecheHaut"></i></a>
     <a ><i class="fas fa-4x fa-arrow-down flecheBas flecheDesactive"></i></a>
     <a ><i class="fas fa-4x fa-arrow-right flecheDroite flecheDesactive"></i></a>
 </div>

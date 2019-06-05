@@ -34,7 +34,7 @@
     <div class="backFlecheVerticalBas"></div>
     <a href="ForetHiver.php"><i class="fas fa-4x fa-arrow-up flecheHaut"></i></a>
     <a href="VilleEst.php"><i class="fas fa-4x fa-arrow-right flecheDroite"></i></a>
-    <a href="VillageNord.php"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
+    <a href="RefugeNord.php"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
     <a ><i class="fas fa-4x fa-arrow-left flecheGauche flecheDesactive"></i></a>
   </div>
 

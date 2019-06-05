@@ -222,6 +222,16 @@
        width: 700px;
    }
    
+   #imgVillageNord1 {
+       position: absolute;
+       left: 30%;
+       top: 20%;
+   }
+   
+   #imgVillageNord1>img {
+       width: 700px;
+   }
+   
    .RefugeSud {
        background: url("../../img/DecorsVillageSud.jpg") no-repeat center fixed;
        background-size: 100%;

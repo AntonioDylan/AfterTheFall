@@ -35,10 +35,10 @@
   <div class="backFlecheHorizontal"></div>
   <div class="backFlecheVerticalHaut"></div>
   <div class="backFlecheVerticalBas"></div>
-  <a><i class="fas fa-4x fa-arrow-up flecheHaut flecheDesactive"></i></a>
+  <a  href="SouterrainOuest.php"><i class="fas fa-4x fa-arrow-up flecheHaut "></i></a>
   <a href="SouterrainNord.php"><i class="fas fa-4x fa-arrow-right flecheDroite"></i></a>
   <a href="ForetHiver.php"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
-  <a href="SouterrainOuest.php"><i class="fas fa-4x fa-arrow-left flecheGauche"></i></a>
+  <a><i class="fas fa-4x fa-arrow-left flecheGauche flecheDesactive"></i></a>
   </div>
 
 </body>

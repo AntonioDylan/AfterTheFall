@@ -36,10 +36,10 @@
   <div class="backFlecheHorizontal"></div>
   <div class="backFlecheVerticalHaut"></div>
   <div class="backFlecheVerticalBas"></div>
-  <a href="UsineNord.php"><i class="fas fa-4x fa-arrow-up flecheHaut"></i></a>
-  <a><i class="fas fa-4x fa-arrow-right flecheDroite flecheDesactive"></i></a>
-  <a href="RefugeSud.php"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
-  <a><i class="fas fa-4x fa-arrow-left flecheGauche flecheDesactive"></i></a>
+  <a  ><i class="fas fa-4x fa-arrow-up flecheHaut flecheDesactive"></i></a>
+  <a href="RefugeSud.php"><i class="fas fa-4x fa-arrow-right flecheDroite  "></i></a>
+  <a href="UsineNord.php"><i class="fas fa-4x fa-arrow-down flecheBas "></i></a>
+  <a ><i class="fas fa-4x fa-arrow-left flecheGauche flecheDesactive"></i></a>
   </div>
 
 </body>

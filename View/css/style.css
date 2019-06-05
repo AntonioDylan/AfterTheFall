@@ -231,6 +231,16 @@
    #imgVillageNord1>img {
        width: 700px;
    }
+
+  #videoUsineNord1 {
+       position: absolute;
+       left: 30%;
+       top: 20%;
+   }
+   
+   #videoUsineNord1>iframe {
+       width: 700px;
+   }
    
    .RefugeSud {
        background: url("../../img/DecorsVillageSud.jpg") no-repeat center fixed;

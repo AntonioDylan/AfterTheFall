@@ -1,7 +1,23 @@
 #btn_VilleEst-PopUp1 {
     width: 100px;
     height: 100px;
+    left: 46%;
+    top: 60%;
+    border-color: white;
+}
+
+#btn_ForetHiver-PopUp1 {
+    width: 100px;
+    height: 100px;
     left: 54%;
     top: 74%;
+    border-color: white;
+}
+
+#btn_VillageNord-PopUp1 {
+    width: 100px;
+    height: 100px;
+    left: 26%;
+    top: 43%;
     border-color: white;
 }

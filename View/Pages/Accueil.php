@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" class="VilleDepart">
 
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
+  <title>After The Fall</title>
   <link rel='stylesheet' href='../css/style.css' type='text/css'>
   <link rel='stylesheet' href='../css/posBtn.css' type='text/css'>
   <link rel='stylesheet' href='../fa/css/all.min.css' type='text/css'>
@@ -15,10 +15,10 @@
 
 <body>
   <div>
-    <div class="titreDescritpion">Ville de départ</div>
+    <div class="titreDescritpion">Année 2812 – Région de Ashax</div>
     <div class="containerTexteDescription">
       <div class="texteDescription">
-      Année 2812 – Région de Ashax Cela fait maintenant plus d'un demi-millénaire que le grand bouleversement a eu lieu. La plus grande catastrophe à l'échelle globale que cette planète ait connue.</br>Ces changements l'humanité pensait pouvoir les éviter, croyant que mère nature se laisserait exploiter indéfiniment sans jamais agir en retour.</br>C'est là qu' elle se trompait.Comme l'avaient annoncé nombreux scientifiques de l'époque les dérèglements ne tardèrent pas à suivre.
+      Cela fait maintenant plus d'un demi-millénaire que le grand bouleversement a eu lieu. La plus grande catastrophe à l'échelle globale que cette planète ait connue.</br>Ces changements l'humanité pensait pouvoir les éviter, croyant que mère nature se laisserait exploiter indéfiniment sans jamais agir en retour.</br>C'est là qu' elle se trompait.Comme l'avaient annoncé nombreux scientifiques de l'époque les dérèglements ne tardèrent pas à suivre.
       </div>
     </div>
   </div>

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
+  <title>After The Fall</title>
   <link rel='stylesheet' href='../css/style.css' type='text/css'>
   <link rel='stylesheet' href='../css/posBtn.css' type='text/css'>
   <link rel='stylesheet' href='../fa/css/all.min.css' type='text/css'>
@@ -36,10 +36,10 @@
   <div class="backFlecheHorizontal"></div>
   <div class="backFlecheVerticalHaut"></div>
   <div class="backFlecheVerticalBas"></div>
-  <a href="https://example.com"><i class="fas fa-4x fa-arrow-up flecheHaut"></i></a>
-  <a href="https://example.com"><i class="fas fa-4x fa-arrow-right flecheDroite"></i></a>
-  <a href="https://example.com"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
-  <a href="https://example.com"><i class="fas fa-4x fa-arrow-left flecheGauche"></i></a>
+  <a ><i class="fas fa-4x fa-arrow-up flecheHaut flecheDesactive"></i></a>
+  <a href="Train.php"><i class="fas fa-4x fa-arrow-right flecheDroite"></i></a>
+  <a href="SousTerrain2.php"><i class="fas fa-4x fa-arrow-down flecheBas"></i></a>
+  <a href="Accueil.php"><i class="fas fa-4x fa-arrow-left flecheGauche"></i></a>
   </div>
 
 </body>

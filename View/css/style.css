@@ -9,6 +9,11 @@
        background-size: 100%;
    }
    
+   .VilleDepart {
+       background: url("../../img/DecorsVille.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
    .ForetHiver {
        background: url("../../img/DecorsForetHiver.jpg") no-repeat center fixed;
        background-size: 100%;
@@ -112,7 +117,7 @@
    }
    
    .flecheDesactive {
-       color: red;
+       display: none !important;
    }
    
    .backFlecheHorizontal {
@@ -149,7 +154,7 @@
    }
    
    .titreDescritpion {
-       width: 390px;
+       width: 500px;
        height: 35px;
        background-color: white;
        opacity: 0.82;
@@ -160,7 +165,7 @@
    }
    
    .containerTexteDescription {
-       width: 400px;
+       width: 510px;
        height: auto;
        background-color: white;
        opacity: 0.82;
@@ -183,6 +188,10 @@
        background-color: whitesmoke;
    }
    
+   .displayNone {
+       display: none;
+   }
+   
    #imgVilleEst1 {
        position: absolute;
        left: 10%;
@@ -203,6 +212,67 @@
        width: 700px;
    }
    
-   .displayNone {
-       display: none;
+   #imgForetHiver1 {
+       position: absolute;
+       left: 30%;
+       top: 20%;
+   }
+   
+   #imgForetHiver1>img {
+       width: 700px;
+   }
+   
+   .RefugeSud {
+       background: url("../../img/DecorsVillageSud.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .InterieurRefuge {
+       background: url("../../img/DecorsInterieurRefuge.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .CentreCommercial {
+       background: url("../../img/DecorsEspaceCommercial.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .SouterrainSud {
+       background: url("../../img/DecorsSousTerrain.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .Bunker {
+       background: url("../../img/DecorsBunker.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .UsineNord {
+       background: url("../../img/DecorsUsineNord.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .SouterrainNord {
+       background: url("../../img/DecorsSousTerrain3.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .BaseMilitaire {
+       background: url("../../img/DecorsMurMilitaire.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .AncienneGare {
+       background: url("../../img/DecorsTrain.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .SouterrainOuest {
+       background: url("../../img/DecorsSousTerrain4.jpg") no-repeat center fixed;
+       background-size: 100%;
+   }
+   
+   .SouterrainEst {
+       background: url("../../img/DecorsSousTerrain2.jpg") no-repeat center fixed;
+       background-size: 100%;
    }

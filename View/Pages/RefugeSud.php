@@ -28,6 +28,15 @@
     <div class="textNarrateur"></div>
     <i class="far fa-2x fa-window-close btn closeTextNarrateur"></i>
 </div>
+
+<div id="btn_RefugeSud-PopUp1" data-numpop="popUp1" data-texte="Le surpâturage est un excès de pression de pâturage par des animaux n’étant pas à l’état sauvage. Une surexploitation des ressources végétales sert d’alimentation à ces derniers. Ayant un effet négatif sur la biodiversité et l’écosystème privant la faune sauvage de ressources alimentaires et d’eau. Souvent associé à une chasse aux prédateurs pouvant nuir aux élevages, elle induit une augmentation drastique de rongeurs détruisant les surfaces d’herbages. " class="btnClick"> </div>
+<div class="fondOpaque close"></div>
+<div class="blockNarrateur close">
+    <div class="blockTextNarrateur"></div>
+    <div class="textNarrateur"></div>
+    <i class="far fa-2x fa-window-close btn  closeTextNarrateur"></i>
+</div>
+
 <div class="fleches">
     <div class="backFlecheHorizontal"></div>
     <div class="backFlecheVerticalHaut"></div>

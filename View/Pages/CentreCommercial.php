@@ -26,6 +26,15 @@
     <div class="textNarrateur"></div>
     <i class="far fa-2x fa-window-close btn closeTextNarrateur"></i>
 </div>
+
+    <div id="btn_CentreCommercial-PopUp1" data-numpop="popUp1" data-texte="Survenue en Côte d’Ivoire, l’affaire du Probo Koala est une catastrophe environnementale datant de 2006. Elle tire son nom du navire pétrolier ayant acheminé des déchets. Après avoir déchargé 600 tonnes de déchets du nettoyage du bateau à Abidjan, ces derniers provoquent des émanations de gazs mortels. Plus de 100 000 cas d'empoisonnement sont recensés par la fédération des droits de l’homme. " class="btnClick"> </div>
+    <div class="fondOpaque close"></div>
+    <div class="blockNarrateur close">
+        <div class="blockTextNarrateur"></div>
+        <div class="textNarrateur"></div>
+        <i class="far fa-2x fa-window-close btn  closeTextNarrateur"></i>
+    </div>
+
 <div class="fleches">
     <div class="backFlecheHorizontal"></div>
     <div class="backFlecheVerticalHaut"></div>

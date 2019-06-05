@@ -32,6 +32,17 @@
     <div class="textNarrateur"></div>
     <i class="far fa-2x fa-window-close btn closeTextNarrateur"></i>
   </div>
+
+<div id="btn_AncienneGare-PopUp1" data-numpop="popUp1" data-texte="En 1907 une usine pétrochimique est installée à Minamata au sud ouest du Japon. Cette usine a rejeté de nombreux résidus de métaux lourds dans la mer, dont certains composés de mercure. Dans les années 1950, une maladie est détectée. La contamination du poisson par le mercure déversé par l’usine est à l’origine de cette dernière, 15 000 victimes ont été reconnues comme atteintes. Aussi grave que incurable, cette maladie fut la cause de nombreux troubles tels que des handicaps mentaux, des pertes de sens tactiles, des convulsions, paralysies ou encore un rétrécissement du champ visuel. " class="btnClick"> </div>
+<div class="fondOpaque close"></div>
+<div class="blockNarrateur close">
+    <div class="blockTextNarrateur"></div>
+    <div class="textNarrateur"></div>
+    <i class="far fa-2x fa-window-close btn  closeTextNarrateur"></i>
+</div>
+
+<div id="imgAncienneGare1" class="close popUp1 displayNone"><img src="https://cdn.japantimes.2xx.jp/wp-content/uploads/2017/02/n-minamata-a-20170216.jpg?fbclid=IwAR128SjHidh46tooR1G4zPWhL6RxNsfopGAIgetubRbj1wX8ohiWgx7nBWA" ></div>
+
   <div class="fleches">
   <div class="backFlecheHorizontal"></div>
   <div class="backFlecheVerticalHaut"></div>

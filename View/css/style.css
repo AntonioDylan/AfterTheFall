@@ -1,298 +1,338 @@
-﻿   html {
-       margin: 0;
-       padding: 0;
-       background: url("../../img/DecorsVille.jpg") no-repeat center fixed;
-       -webkit-background-size: cover;
-       /* pour anciens Chrome et Safari */
-       background-size: cover;
-       /* version standardisée */
-       background-size: 100%;
-   }
-   
-   .VilleDepart {
-       background: url("../../img/DecorsVille.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .ForetHiver {
-       background: url("../../img/DecorsForetHiver.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .RefugeNord {
-       background: url("../../img/DecorsVillageNord.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .VilleEst {
-       background: url("../../img/DecorsVilleEst.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .btnClick {
-       cursor: pointer;
-       position: absolute;
-       display: inline-block;
-       border: solid 3px;
-       -moz-border-radius: 50%;
-       -webkit-border-radius: 50%;
-       border-radius: 50%;
-   }
-   
-   .blockNarrateur {
-       width: 80%;
-       left: 7%;
-       position: absolute;
-       top: 83%;
-       height: 15%;
-       display: none;
-   }
-   
-   .blockTextNarrateur {
-       border: solid 3px white;
-       background-color: white;
-       opacity: 0.82;
-       height: 100%;
-       border-radius: 20px;
-   }
-   
-   .closeTextNarrateur {
-       float: right;
-       color: lightseagreen;
-       position: absolute;
-       top: 15px;
-       right: 30px;
-   }
-   
-   .btn:hover {
-       cursor: pointer;
-   }
-   
-   .textNarrateur {
-       top: 15%;
-       left: 5%;
-       position: absolute;
-       height: 80%;
-       width: 90%;
-       overflow: auto;
-       font-size: 20px;
-   }
-   
-   .fleches {
-       width: 150px;
-       height: 150px;
-       position: absolute;
-       left: 90%;
-       bottom: 10px;
-   }
-   
-   .flecheHaut {
-       position: absolute;
-       left: 30%;
-       color: lightseagreen;
-       cursor: pointer;
-   }
-   
-   .flecheDroite {
-       position: absolute;
-       left: 60%;
-       top: 30%;
-       color: lightseagreen;
-       cursor: pointer;
-   }
-   
-   .flecheBas {
-       position: absolute;
-       left: 30%;
-       top: 55%;
-       color: lightseagreen;
-       cursor: pointer;
-   }
-   
-   .flecheGauche {
-       position: absolute;
-       top: 30%;
-       color: lightseagreen;
-       cursor: pointer;
-   }
-   
-   .flecheDesactive {
-       display: none !important;
-   }
-   
-   .backFlecheHorizontal {
-       background-color: white;
-       border-radius: 18px;
-       position: absolute;
-       top: 45px;
-       opacity: 0.8;
-       width: 156px;
-       height: 65px;
-       left: -6px;
-   }
-   
-   .backFlecheVerticalHaut {
-       background-color: white;
-       border-radius: 18px 18px 0px 0px;
-       position: absolute;
-       opacity: 0.8;
-       width: 65px;
-       height: 50px;
-       left: 40px;
-       top: -5px;
-   }
-   
-   .backFlecheVerticalBas {
-       background-color: white;
-       border-radius: 0px 0px 18px 18px;
-       position: absolute;
-       opacity: 0.8;
-       width: 65px;
-       height: 40px;
-       left: 40px;
-       top: 110px;
-   }
-   
-   .titreDescritpion {
-       width: 500px;
-       height: 35px;
-       background-color: white;
-       opacity: 0.82;
-       font-family: cursive;
-       font-size: x-large;
-       padding-left: 10px;
-       text-decoration: underline;
-   }
-   
-   .containerTexteDescription {
-       width: 510px;
-       height: auto;
-       background-color: white;
-       opacity: 0.82;
-   }
-   
-   .texteDescription {
-       padding: 10px;
-       font-size: large;
-   }
-   
-   .fondOpaque {
-       display: none;
-       width: 100%;
-       height: 100%;
-       opacity: 0.6;
-       overflow: auto;
-       position: absolute;
-       top: 0;
-       left: 0;
-       background-color: whitesmoke;
-   }
-   
-   .displayNone {
-       display: none;
-   }
-   
-   #imgVilleEst1 {
-       position: absolute;
-       left: 10%;
-       top: 20%;
-   }
-   
-   #imgVilleEst1>img {
-       width: 700px;
-   }
-   
-   #imgVilleEst2 {
-       position: absolute;
-       left: 50%;
-       top: 20%;
-   }
-   
-   #imgVilleEst2>img {
-       width: 700px;
-   }
-   
-   #imgForetHiver1 {
-       position: absolute;
-       left: 30%;
-       top: 20%;
-   }
-   
-   #imgForetHiver1>img {
-       width: 700px;
-   }
-   
-   #imgVillageNord1 {
-       position: absolute;
-       left: 30%;
-       top: 20%;
-   }
-   
-   #imgVillageNord1>img {
-       width: 700px;
-   }
+﻿html {
+    margin: 0;
+    padding: 0;
+    background: url("../../img/DecorsVille.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    /* pour anciens Chrome et Safari */
+    background-size: cover;
+    /* version standardisée */
+    background-size: 100%;
+}
 
-  #videoUsineNord1 {
-       position: absolute;
-       left: 30%;
-       top: 20%;
-   }
-   
-   #videoUsineNord1>iframe {
-       width: 700px;
-   }
-   
-   .RefugeSud {
-       background: url("../../img/DecorsVillageSud.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .InterieurRefuge {
-       background: url("../../img/DecorsInterieurRefuge.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .CentreCommercial {
-       background: url("../../img/DecorsEspaceCommercial.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .SouterrainSud {
-       background: url("../../img/DecorsSousTerrain.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .Bunker {
-       background: url("../../img/DecorsBunker.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .UsineNord {
-       background: url("../../img/DecorsUsineNord.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .SouterrainNord {
-       background: url("../../img/DecorsSousTerrain3.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .BaseMilitaire {
-       background: url("../../img/DecorsMurMilitaire.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .AncienneGare {
-       background: url("../../img/DecorsTrain.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .SouterrainOuest {
-       background: url("../../img/DecorsSousTerrain4.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
-   
-   .SouterrainEst {
-       background: url("../../img/DecorsSousTerrain2.jpg") no-repeat center fixed;
-       background-size: 100%;
-   }
+.VilleDepart {
+    background: url("../../img/DecorsVille.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.ForetHiver {
+    background: url("../../img/DecorsForetHiver.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.RefugeNord {
+    background: url("../../img/DecorsVillageNord.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.VilleEst {
+    background: url("../../img/DecorsVilleEst.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.btnClick {
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    border: solid 3px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.blockNarrateur {
+    width: 80%;
+    left: 7%;
+    position: absolute;
+    top: 83%;
+    height: 15%;
+    display: none;
+}
+
+.blockTextNarrateur {
+    border: solid 3px white;
+    background-color: white;
+    opacity: 0.82;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.closeTextNarrateur {
+    float: right;
+    color: lightseagreen;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.textNarrateur {
+    top: 15%;
+    left: 5%;
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    overflow: auto;
+    font-size: 20px;
+}
+
+.fleches {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 90%;
+    bottom: 10px;
+}
+
+.flecheHaut {
+    position: absolute;
+    left: 30%;
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+.flecheDroite {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+.flecheBas {
+    position: absolute;
+    left: 30%;
+    top: 55%;
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+.flecheGauche {
+    position: absolute;
+    top: 30%;
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+.flecheDesactive {
+    display: none !important;
+}
+
+.backFlecheHorizontal {
+    background-color: white;
+    border-radius: 18px;
+    position: absolute;
+    top: 45px;
+    opacity: 0.8;
+    width: 156px;
+    height: 65px;
+    left: -6px;
+}
+
+.backFlecheVerticalHaut {
+    background-color: white;
+    border-radius: 18px 18px 0px 0px;
+    position: absolute;
+    opacity: 0.8;
+    width: 65px;
+    height: 50px;
+    left: 40px;
+    top: -5px;
+}
+
+.backFlecheVerticalBas {
+    background-color: white;
+    border-radius: 0px 0px 18px 18px;
+    position: absolute;
+    opacity: 0.8;
+    width: 65px;
+    height: 40px;
+    left: 40px;
+    top: 110px;
+}
+
+.titreDescritpion {
+    width: 500px;
+    height: 35px;
+    background-color: white;
+    opacity: 0.82;
+    font-family: cursive;
+    font-size: x-large;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.containerTexteDescription {
+    width: 510px;
+    height: auto;
+    background-color: white;
+    opacity: 0.82;
+}
+
+.texteDescription {
+    padding: 10px;
+    font-size: large;
+}
+
+.fondOpaque {
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+
+.displayNone {
+    display: none;
+}
+
+#imgVilleEst1 {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+#imgVilleEst1>img {
+    width: 700px;
+}
+
+#imgVilleEst2 {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+#imgVilleEst2>img {
+    width: 700px;
+}
+
+#imgBaseMilitaire1 {
+    position: absolute;
+    left: 32%;
+    top: 20%;
+}
+
+#imgBaseMilitaire1>img {
+    width: 700px;
+}
+
+#imgBaseMilitaire2 {
+    position: absolute;
+    left: 28%;
+    top: 28%;
+}
+
+#imgBaseMilitaire2>img {
+    width: 900px;
+}
+
+#imgForetHiver1 {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+#imgForetHiver1>img {
+    width: 700px;
+}
+
+#imgVillageNord1 {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+#imgVillageNord1>img {
+    width: 700px;
+}
+
+#imgAncienneGare1 {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+#imgAncienneGare1>img {
+    width: 700px;
+}
+
+#imgBunker1 {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+#imgBunker1>img {
+    width: 700px;
+}
+
+#videoUsineNord1 {
+    position: absolute;
+    left: 30%;
+    top: 35%;
+}
+
+#videoUsineNord1>iframe {
+    width: 700px;
+}
+
+.RefugeSud {
+    background: url("../../img/DecorsVillageSud.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.InterieurRefuge {
+    background: url("../../img/DecorsInterieurRefuge.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.CentreCommercial {
+    background: url("../../img/DecorsEspaceCommercial.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.SouterrainSud {
+    background: url("../../img/DecorsSousTerrain.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.Bunker {
+    background: url("../../img/DecorsBunker.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.UsineNord {
+    background: url("../../img/DecorsUsineNord.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.SouterrainNord {
+    background: url("../../img/DecorsSousTerrain3.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.BaseMilitaire {
+    background: url("../../img/DecorsMurMilitaire.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.AncienneGare {
+    background: url("../../img/DecorsTrain.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.SouterrainOuest {
+    background: url("../../img/DecorsSousTerrain4.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+
+.SouterrainEst {
+    background: url("../../img/DecorsSousTerrain2.jpg") no-repeat center fixed;
+    background-size: 100%;
+}

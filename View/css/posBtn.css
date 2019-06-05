@@ -22,7 +22,55 @@
     border-color: white;
 }
 
+#btn_Bunker-PopUp1 {
+    width: 100px;
+    height: 100px;
+    left: 34%;
+    top: 70%;
+    border-color: white;
+}
+
+#btn_CentreCommercial-PopUp1 {
+    width: 100px;
+    height: 100px;
+    left: 62%;
+    top: 24%;
+    border-color: white;
+}
+
+#btn_RefugeSud-PopUp1 {
+    width: 100px;
+    height: 100px;
+    left: 68%;
+    top: 60%;
+    border-color: white;
+}
+
+#btn_AncienneGare-PopUp1 {
+    width: 100px;
+    height: 100px;
+    left: 34%;
+    top: 50%;
+    border-color: white;
+}
+
 #btn_UsineNord-PopUp1 {
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    top: 30%;
+    border-color: white;
+}
+
+#btn_BaseMilitaire-PopUp1 {
+    width: 100px;
+    height: 100px;
+    left: 45%;
+    top: 55%;
+    border-color: white;
+}
+
+#btn_BaseMilitaire-PopUp2 {
     width: 100px;
     height: 100px;
     left: 80%;
